@@ -67,11 +67,7 @@ public class MainActivity extends DebugActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            // Clicou no botão settings da action bar (o toast é um breve alerta que vai sumir)
-            Toast.makeText(this, "Clicou no settings", Toast.LENGTH_SHORT).show();
-            return true;
-        }
+
         return super.onOptionsItemSelected(item);
     }
 
